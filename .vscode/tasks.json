@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "deno",
+			"command": "bundle",
+			"problemMatcher": [
+				"$deno"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "deno: bundle"
+		}
+	]
+}
